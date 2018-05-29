@@ -1,0 +1,10 @@
+{
+  "simulation": "jimsLoadTests.basicRampUpTest",
+  "simulationId": "basicrampuptest",
+  "start": 1527553955017,
+  "description": "",
+  "scenarios": ["My Scenario"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "loadTests.JimTest",
+  "simulationId": "jimtest",
+  "start": 1527481922757,
+  "description": "",
+  "scenarios": ["My Scenario"],
+  "assertions": [
+
+  ]
+}

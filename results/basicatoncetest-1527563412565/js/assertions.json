@@ -1,0 +1,10 @@
+{
+  "simulation": "jimsLoadTests.basicAtOnceTest",
+  "simulationId": "basicatoncetest",
+  "start": 1527563412565,
+  "description": "",
+  "scenarios": ["My Scenario"],
+  "assertions": [
+
+  ]
+}
