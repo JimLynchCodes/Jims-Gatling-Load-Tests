@@ -13,6 +13,7 @@ class basicConstantOverTimeTest extends Simulation {
 	  .exec(
 	  	http("My Request")
 	      .get("/Stage?tickers=BNBBTC")
+	      .headers(Map("Content-Type" -> "application/json"))
 	      .check(status is 200))
 
 	setUp(scn.inject(constantUsersPerSec(10) during (15 seconds) randomized).protocols(httpConf))

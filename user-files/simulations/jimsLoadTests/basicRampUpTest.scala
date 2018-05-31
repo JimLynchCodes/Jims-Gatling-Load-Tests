@@ -13,6 +13,7 @@ class basicRampUpTest extends Simulation {
 	  .exec(
 	  	http("My Request")
 	      .get("/Stage?tickers=BNBBTC")
+	      .headers(Map("Content-Type" -> "application/json"))
 	      .check(status is 200))
 	
 	setUp(scn.inject(rampUsersPerSec(10) to 20 during (10 seconds) randomized).protocols(httpConf))
